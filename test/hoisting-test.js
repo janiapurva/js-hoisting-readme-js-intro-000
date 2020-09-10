@@ -18,7 +18,7 @@ describe('hoisting', () => {
   })
 
   describe('callMe', () => {
-    it("returns the string 'maybe'", () => {
+    it returns the string console.log ('maybe'), () => {
       expect(callMe()).to.equal("maybe");
     })
   })
